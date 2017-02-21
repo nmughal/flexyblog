@@ -38,6 +38,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex: 4 0 20%;
 }
 
 .posts article {
@@ -46,7 +47,7 @@ body {
     background-color: #dddddd;
     border: 1px solid #444444;
     height: 20em; /* this is just so we can see the articles since they have no content */
-    margin: 45px;
+    margin: 3em;
     flex: 1 0 30%;
 }
 
@@ -54,6 +55,10 @@ body {
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
     color: #444444;
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sidebar section {
@@ -61,9 +66,8 @@ body {
     background-color: #dddddd;
     border: 1px solid #444444;
     height: 10em; /* this is just so we can see the articles since they have no content */
-    margin-bottom: 40px;
-    margin-top: 40px;
-    flex: 1 0 90%;
+    width: 90%;
+    margin-top: 2em;
 }
 
 footer {
