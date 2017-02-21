@@ -25,11 +25,32 @@ body {
 .hero {
     /* DO NOT CHANGE THESE */
     background-color: #444444;
+    display: flex;
+    height: 10em;
 }
 
 .hero h1 {
     /* DO NOT CHANGE THESE */
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex: 0 0 50%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.hero li {
+  flex: 0 0 50%;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
 
 .posts {
