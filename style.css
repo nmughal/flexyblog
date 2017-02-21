@@ -17,7 +17,9 @@ body {
 }
 
 .container {
-  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
 }
 
 .hero {
@@ -33,16 +35,19 @@ body {
 .posts {
     /* DO NOT CHANGE THESE */
     color: #444444;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .posts article {
     /* DO NOT CHANGE THESE */
     box-sizing: border-box;
-    padding: 2em; /*padding of content */
     background-color: #dddddd;
     border: 1px solid #444444;
     height: 20em; /* this is just so we can see the articles since they have no content */
-    margin: 70px;
+    margin: 45px;
+    flex: 1 0 30%;
 }
 
 .sidebar {
@@ -56,6 +61,9 @@ body {
     background-color: #dddddd;
     border: 1px solid #444444;
     height: 10em; /* this is just so we can see the articles since they have no content */
+    margin-bottom: 40px;
+    margin-top: 40px;
+    flex: 1 0 90%;
 }
 
 footer {
