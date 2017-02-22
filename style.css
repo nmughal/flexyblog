@@ -31,7 +31,7 @@ body {
   padding-right: 1em;
 }
 
-.container {}
+.container {
   justify-content: space-between;
   width: 90%;
 }
@@ -77,11 +77,60 @@ footer {
 }
 
 footer nav li a {
-  color: white;
+  color: #ffffff;
 }
 
 footer p {
   margin-top: 1em;
   padding-top: 1em;
   padding-left: 0.5em;
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+  .hero h1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex: 0 0 50%;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero nav {
+    align-self: flex-end;
+  }
+
+  .hero ul {
+    justify-content: flex-end;
+  }
+
+  .posts {
+    flex: 4 0 20%;
+  }
+
+  .posts article {
+    flex: 1 0 30%;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 0 20%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    height: 8em;
+  }
+
+  footer p {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+  }
 }
