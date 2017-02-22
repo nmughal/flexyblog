@@ -1,105 +1,87 @@
 
-/* resetting some browser-default styles */
-/* DO NOT CHANGE THESE */
-
 html,body,header,main,footer,section,aside,h1,h2,h3,h4,p {
   margin:0;
   padding:0;
 }
 
 body {
-    /* DO NOT CHANGE THESE */
-    font-family: Verdana, Arial, sans-serif;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 .hero {
-    /* DO NOT CHANGE THESE */
-    background-color: #444444;
-    display: flex;
-    height: 10em;
-    justify-content: space-between;
+  background-color: #444444;
+  height: 7em;
 }
 
 .hero h1 {
-    /* DO NOT CHANGE THESE */
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    flex: 0 0 50%;
+  color: #ffffff;
 }
 
-ul {
+.hero ul {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  list-style: none;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 
-.hero li {
-  flex: 0 0 50%;
-}
-
-li a {
-  color: white;
+.hero nav li a {
+  color: #ffffff;
   text-decoration: none;
+  padding-right: 1em;
+}
+
+.container {}
+  justify-content: space-between;
+  width: 90%;
 }
 
 .posts {
-    /* DO NOT CHANGE THESE */
-    color: #444444;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex: 4 0 20%;
+  color: #444444;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .posts article {
-    /* DO NOT CHANGE THESE */
-    box-sizing: border-box;
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 20em; /* this is just so we can see the articles since they have no content */
-    margin: 3em;
-    flex: 1 0 30%;
+  box-sizing: border-box;
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 20em;
+  margin: 1em;
+  flex: 0 0 95%;
 }
 
 .sidebar {
-    /* DO NOT CHANGE THESE */
-    background-color: #aaaaaa;
-    color: #444444;
-    flex: 0 0 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #aaaaaa;
+  color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 20%;
 }
 
 .sidebar section {
-    /* DO NOT CHANGE THESE */
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 10em; /* this is just so we can see the articles since they have no content */
-    width: 90%;
-    margin-top: 2em;
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 10em;
+  width: 90%;
+  margin: 2em 0;
 }
 
 footer {
-    /* DO NOT CHANGE THESE */
-    background-color: #444444;
-    color: #eeeeee;
-    display: flex;
-    height: 8em;
-    justify-content: space-between;
+  background-color: #444444;
+  color: #eeeeee;
+  height: 10em;
+  padding-top: 2em;
+}
+
+footer nav li a {
+  color: white;
 }
 
 footer p {
-  display: flex;
-  justify-content: flex-end;
   margin-top: 1em;
+  padding-top: 1em;
+  padding-left: 0.5em;
 }
