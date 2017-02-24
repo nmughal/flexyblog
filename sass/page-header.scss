@@ -1,0 +1,22 @@
+
+header.primary {
+  border: $themeBorder;
+  color: $headerThemeColor;
+  font-size: $headerHeadingSize;
+
+  h1 { /*this will produce: header h1*/
+    font-size: $headerHeadingSize + 0.1em;
+  }
+
+  &:hover { /*this will produce header:hover*/
+    /*combine me with my parent using NO space*/
+    background-color: $headerThemeColor;
+    color: $headerTextHover;
+  }
+}
+
+
+header.hero {
+    background-color: $themeBorder;
+    
+}

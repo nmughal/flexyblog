@@ -1,0 +1,12 @@
+@media screen and (min-width: 70em) {
+  .sidebar {
+    flex: 0 0 20%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .sidebar section {
+    margin-top: 2em;
+    width: 85%;
+  }
+}

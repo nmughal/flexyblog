@@ -1,0 +1,22 @@
+.hero {
+  background-color: #444444;
+  height: 7em;
+}
+
+.hero h1 {
+  color: #ffffff;
+}
+
+.hero ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.hero nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 1em;
+}

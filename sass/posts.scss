@@ -1,0 +1,15 @@
+.posts {
+  color: #444444;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.posts article {
+  box-sizing: border-box;
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 20em;
+  margin: 1em;
+  flex: 0 0 95%;
+}

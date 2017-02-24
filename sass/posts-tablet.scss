@@ -1,0 +1,11 @@
+@media screen and (min-width: 35em) {
+
+  .posts {
+    flex: 4 0 20%;
+  }
+
+  .posts article {
+    flex: 1 0 40%;
+  }
+
+}
