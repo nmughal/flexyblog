@@ -3,4 +3,6 @@ This is a TIY assignment building the layout for a blog site. This assignment wi
 TIY Flexy Blog Assignment Part II refactors the code to produce
 a site that is responsive to different screen sizes.
 
+TIY Flexy Blog Assignment Part III refactors the CSS code using Sass.
+
 Code by Nadia Mughal
