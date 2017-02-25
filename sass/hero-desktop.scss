@@ -1,17 +1,16 @@
 @media screen and (min-width: 70em) {
   .container {
     display: flex;
-  }
 
-  .posts {
+    .posts {
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 4 0 20%;
-  }
 
-  .posts article {
-    margin: 3em;
-    flex: 1 0 30%;
+      article {
+      margin: 3em;
+      flex: 1 0 30%;
+      }
+    }
   }
-
 }

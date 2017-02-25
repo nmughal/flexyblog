@@ -1,14 +1,13 @@
 @media screen and (min-width: 35em) {
-
   footer {
     display: flex;
     justify-content: space-between;
     height: 8em;
-  }
 
-  footer p {
+    p {
     display: flex;
     justify-content: flex-end;
     padding-right: 1em;
+    }
   }
 }

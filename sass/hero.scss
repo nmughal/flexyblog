@@ -1,22 +1,23 @@
+// styling for screensize < 35em //
 .hero {
-  background-color: #444444;
+  background-color: $themeColor;
   height: 7em;
-}
 
-.hero h1 {
-  color: #ffffff;
-}
+  h1 {
+  color: $headerColor;
+  }
 
-.hero ul {
+  ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 0;
-}
+  }
 
-.hero nav li a {
-  color: #ffffff;
+  nav a {
+  color: $headerColor;
   text-decoration: none;
   padding-right: 1em;
+  }
 }

@@ -1,16 +1,17 @@
+// styling for screensize < 35em //
 footer {
-  background-color: #444444;
-  color: #eeeeee;
+  background-color: $themeColor;
+  color: $footerColor;
   height: 10em;
   padding-top: 2em;
-}
 
-footer nav li a {
-  color: #ffffff;
-}
+  nav a {
+  color: $headerColor;
+  }
 
-footer p {
+  p {
   margin-top: 1em;
   padding-top: 1em;
   padding-left: 0.5em;
+  }
 }

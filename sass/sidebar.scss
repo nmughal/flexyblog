@@ -1,16 +1,17 @@
+// styling for screensize < 35em //
 .sidebar {
-  background-color: #aaaaaa;
-  color: #444444;
+  background-color: $sidebarColor;
+  color: $themeColor;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 0 0 20%;
-}
 
-.sidebar section {
-  background-color: #dddddd;
-  border: 1px solid #444444;
+  section {
+  background-color: $articleColor;
+  border: 1px solid $themeColor;
   height: 10em;
   width: 90%;
   margin: 2em 0;
+  }
 }
